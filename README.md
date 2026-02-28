@@ -1,3 +1,11 @@
+- ## Learning Progress
+
+### Day 1
+Implemented REST API up to POST route.
+
+### Day 2
+Completed PATCH and DELETE routes.
+
 # REST API CRUD App
 
 This is a REST API learning basic mini project built using Node.js, Express and EJS.
@@ -15,3 +23,4 @@ This is a REST API learning basic mini project built using Node.js, Express and 
 - Express.js
 - EJS
 - UUID -package
+
