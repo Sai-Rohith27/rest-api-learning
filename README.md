@@ -4,7 +4,12 @@
 Implemented REST API up to POST route.
 
 ### Day 2
-Completed PATCH and DELETE routes.
+Completed PATCH  routes.
+
+## Day 3
+- Implemented DELETE route
+- Understood method-override
+- Completed full CRUD
 
 # REST API CRUD App
 
