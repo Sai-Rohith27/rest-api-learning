@@ -23,6 +23,11 @@
                      Edit post!
                   </button>
                 </a>
+                <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+                  <button>
+                     Delete Post
+                  </button>
+                </form>
              </div>
         <% } %> 
      <br>                              

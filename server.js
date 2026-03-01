@@ -64,6 +64,15 @@ app.patch("/posts/:id",(req,res)=>{
 app.get("/posts/:id/edit",(req,res)=>{
     res.render("edit",{posts});
 })
+
+app.delete("/posts/:id", (req, res) => {
+  const { id } = req.params;
+
+  posts = posts.filter(p => p.id !== id);
+
+  res.redirect("/posts");
+});
+
 app.listen(PORT,()=>{
     console.log(`server is running in port ${PORT}...`);
 });
